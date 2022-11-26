@@ -219,7 +219,8 @@ function saveEditedStudent() {
     position: positionEmployee_2.value,
     hourWork: hourWorkEmployee_2.value,
     classify: classifyEmployee(+hourWorkEmployee_2.value),
-    id,
+    id: id,
+    updateAt: Date.now(),
   };
   dssv.list[index] = studentUpdating;
   localStorage.setItem("listStudent", JSON.stringify(dssv.list));
