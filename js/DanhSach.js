@@ -1,0 +1,3 @@
+function DanhSachNV() {
+  this.list = [];
+}
