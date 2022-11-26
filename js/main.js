@@ -214,7 +214,7 @@ function saveEditedStudent() {
     name: nameEmployee_2.value,
     email: emailEmployee_2.value,
     password: passwordEmployee_2.value,
-    startDate: startDateEmployee_2.value,
+    date: startDateEmployee_2.value,
     salary: salaryEmployee_2.value,
     position: positionEmployee_2.value,
     hourWork: hourWorkEmployee_2.value,
