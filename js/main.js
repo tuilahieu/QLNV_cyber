@@ -210,7 +210,6 @@ function saveEditedStudent() {
     if (hour < 160) return "Trung bình";
   };
   studentUpdating = {
-    id,
     username: usernameEmployee_2.value,
     name: nameEmployee_2.value,
     email: emailEmployee_2.value,
@@ -220,6 +219,7 @@ function saveEditedStudent() {
     position: positionEmployee_2.value,
     hourWork: hourWorkEmployee_2.value,
     classify: classifyEmployee(+hourWorkEmployee_2.value),
+    id,
   };
   dssv.list[index] = studentUpdating;
   localStorage.setItem("listStudent", JSON.stringify(dssv.list));
